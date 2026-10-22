@@ -1,0 +1,5 @@
+# Datasets and model weights are too big for GitHub
+data/
+checkpoints/
+*.pt
+*.pth
