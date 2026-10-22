@@ -29,7 +29,7 @@ DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 #   "mnist": Milestone 1. Handwritten digits, grayscale, trains in minutes.
 #   "dogs":  Milestone 2+. Stanford Dogs, 120 breeds, colour, trains in hours.
 # ─────────────────────────────────────────────────────────────────────────────
-DATASET = "mnist"
+DATASET = "dogs"         # Milestone 1 (mnist) is done ✅, now the real goal
 
 if DATASET == "mnist":
     IMAGE_SIZE = 32        # MNIST is 28x28; we pad to 32 so the U-Net can halve it cleanly: 32 → 16 → 8
